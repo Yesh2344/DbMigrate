@@ -1,0 +1,20 @@
+{
+    "database": {
+        "dialect": "postgres",
+        "username": "your_username",
+        "password": "your_password",
+        "host": "your_host",
+        "port": 5432,
+        "name": "your_database"
+    },
+    "migrations": [
+        {
+            "version": "001",
+            "script": "001_create_table.sql"
+        },
+        {
+            "version": "002",
+            "script": "002_add_column.sql"
+        }
+    ]
+}
